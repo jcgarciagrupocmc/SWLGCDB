@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SWLGCDB.iml" filepath="$PROJECT_DIR$/SWLGCDB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swlcgdbdb/swlcgdbdb.iml" filepath="$PROJECT_DIR$/swlcgdbdb/swlcgdbdb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swlcgdbui/swlcgdbui.iml" filepath="$PROJECT_DIR$/swlcgdbui/swlcgdbui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swlcgdbws/swlcgdbws.iml" filepath="$PROJECT_DIR$/swlcgdbws/swlcgdbws.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'com.neenbedankt.android-apt'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "es.elvalledeljedi.swlgcdb"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile group: 'com.neenbedankt.gradle.plugins', name: 'android-apt', version: '1.4'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile "com.android.support:appcompat-v7:$rootProject.appcompatVersion"
+    compile "com.android.support:design:$rootProject.appcompatVersion"
+    compile "com.android.support:recyclerview-v7:$rootProject.appcompatVersion"
+    compile "com.android.support:cardview-v7:$rootProject.appcompatVersion"
+    compile "com.jakewharton:butterknife:$rootProject.butterknifeVersion"
+    //compile "com.github.bmarrdev:android-DecoView-charting:$rootProject.decoViewChartingVersion"
+    compile "com.github.ganfra:material-spinner:$rootProject.materialSpinnerVersion"
+    compile "com.google.guava:guava:$rootProject.guavaVersion"
+    compile 'com.github.bumptech.glide:glide:3.6.1'
+    compile 'jp.wasabeef:glide-transformations:1.3.1'
+    //compile 'com.github.karabaralex:android-comboseekbar:b66191a616@aar' // code alternative
+//    compile 'com.github.PhilJay:MPAndroidChart:v2.1.6'
+    compile 'com.snappydb:snappydb-lib:0.5.2'
+}

@@ -1,0 +1,1 @@
+include ':app', ':swlcgdbui', ':swlcgdbdb', ':swlcgdbui', ':swlcgdbws'
